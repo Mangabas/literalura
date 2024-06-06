@@ -7,15 +7,15 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ConsumptionApi {
-    private final String URL = "https://gutendex.com//books?search=romeo%20and%20juliet";
+    private final String URL = "https://gutendex.com//books?search=";
 
-    public String obtainData() {
+    public String obtainData(String search) {
         HttpClient client = HttpClient.newBuilder()
                 .followRedirects(HttpClient.Redirect.ALWAYS)
                 .build();
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(URL))
+                .uri(URI.create(URL + search.replace(" ", "%20")))
                 .build();
 
         HttpResponse<String> response;
