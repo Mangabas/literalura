@@ -15,6 +15,8 @@ public class ResultsClass {
     private List<String> languageBook;
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<AuthorClass> authorBook;
+
+
     public ResultsClass(){}
 
     public void setAuthorClass(List<AuthorClass> authorBook) {

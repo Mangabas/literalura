@@ -14,6 +14,8 @@ public class AuthorClass {
     @ManyToOne
     private ResultsClass book;
 
+    public AuthorClass(){}
+
     @Override
     public String toString() {
         return "Name = " + authorName +
