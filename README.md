@@ -41,5 +41,6 @@ https://gutendex.com/
 
 ## Badge
 Este é o badge conquistado por ter desenvolvido este projeto com a Alura no programa ONE - "Oracle Next Education" em parceria com a Oracle:
+
 ![badge literalura](https://github.com/user-attachments/assets/e3974331-96d8-4482-9f45-8bfc40d431ee)
 
