@@ -14,7 +14,7 @@ em um banco de dados.
 A Api utilizada é a da Gutendex, que facilita o acesso ao acervo do Projeto Gutenberg, uma coleção de livros de domínio público. Através da Gutendex, é possível buscar e filtrar livros por 
 diversos critérios, como autor, título, idioma e assunto, tornando mais fácil encontrar e acessar milhares de obras literárias gratuitamente.  
 
-É possível acessar a API por meio deste link:  
+É possível acessar a documentação API por meio deste link:  
 https://gutendex.com/
 
 ## Funcionalidades
@@ -28,7 +28,7 @@ https://gutendex.com/
 
 - Java 17 ou superior instalado.
 - Maven instalado para construção do projeto.
-- Variáveis de ambiente `DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASSWORD` e `JWT_SECRET`.
+- Variáveis de ambiente `DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`.
 - Configure um banco de dados `PostgreSQL` com o nome e credenciais especificadas em application.properties.
 
 ## Tecnologias
@@ -38,6 +38,6 @@ https://gutendex.com/
 - **Jackson**
 
 ## Badge
-Este é um badge conquistado por ter desenvolvido este projeto com a Alura no programa ONE - "Oracle Next Education" em parceria com a Oracle:
+Este é o badge conquistado por ter desenvolvido este projeto com a Alura no programa ONE - "Oracle Next Education" em parceria com a Oracle:
 ![badge literalura](https://github.com/user-attachments/assets/e3974331-96d8-4482-9f45-8bfc40d431ee)
 
